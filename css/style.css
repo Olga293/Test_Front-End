@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url("../assets/img/left_corner_figure.svg") top left no-repeat fixed,
+                url("../assets/img/right_corner_figure.svg") top right no-repeat fixed;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 104%;
+}
+
+h2 {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+}
+
+p {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+/* Header */
+
+.header__logo {
+    display: block;
+    width: 190px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+
+/* Main */
+
+.main__h1 {
+    color: #A4ADBA;
+    text-align: center;
+    margin-top: 93px;
+    margin-bottom: 0;
+}
+
+.main__p {
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    margin-top: 8px;
+    width: 423px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Countdown */
+
+.countdown {
+	display: flex;
+	justify-content: center;
+    margin-top: 32px;
+}
+
+.countdown__time {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.countdown__time h2 {
+    margin: 0;
+    color: #162C4E;
+}
+
+.countdown__units {
+    display: flex;
+    margin-top: 3px;
+    width: 132px;
+    height: 54px;
+    background-image: url("../assets/img/countdown_units_background.svg");
+}
+
+.countdown__units span {
+    display: block;
+    margin: auto;
+    color: #FFFFFF;
+}
+
+.countdown__seperator {
+    font-family: "Poppins";
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 100%;
+    margin-top: 0;
+    color: #162C4E;
+}
+
+
+/* Check events */
+
+.check-events {
+    margin-top: 72px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.check-events__p {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    width: 338px;
+}
+
+.check-events__a {
+    width: 240px;
+    height: 60px;
+    border-radius: 40px;
+    padding: 0 15px;
+    margin-top: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1D4169;
+
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Fonts */
+
+@font-face {
+	font-family: "Poppins";
+    font-display: swap;
+    src: url("../assets/fonts/poppins_regular.woff2") format("woff2"),
+        url("../assets/fonts/poppins_regular.woff") format("woff"),
+        url("../assets/fonts/poppins_regular.ttf") format("truetype"),
+        url("../assets/fonts/poppins_regular.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-display: swap;
+    src: url("../assets/fonts/poppins_bold.woff2") format("woff2"),
+        url("../assets/fonts/poppins_bold.woff") format("woff"),
+        url("../assets/fonts/poppins_bold.ttf") format("truetype"),
+        url("../assets/fonts/poppins_bold.svg") format("svg");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-display: swap;
+    src: url("../assets/fonts/poppins_semibold.woff2") format("woff2"),
+        url("../assets/fonts/poppins_semibold.woff") format("woff"),
+        url("../assets/fonts/poppins_semibold.ttf") format("truetype"),
+        url("../assets/fonts/poppins_semibold.svg") format("svg");
+    font-weight: 600;
+    font-style: normal;
+}
