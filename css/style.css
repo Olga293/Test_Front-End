@@ -150,6 +150,134 @@ span {
     text-decoration: none;
 }
 
+
+/* Bottom block with email */
+
+.bottom-block {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+    height: 192px;
+    padding-left: 270px;
+    background: #162C4E;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.email-form {
+    width: 440px;
+    height: 59px;
+    margin: auto;
+    border-radius: 40px;
+    background: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email-form__input {
+    margin-left: 25px;
+    border: none;
+    width: 350px;
+
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.email-form__btn {
+    width: 43px;
+    height: 43px;
+    background: #DF2224;
+    border: none;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.other-events-btn {
+    float: right;
+    display: flex;
+}
+
+.other-events-btn__a {
+    font-family: "Poppins";
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    color: #FFFFFF;
+    text-decoration: none;
+
+    width: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 110px;
+}
+
+
+/* Popup */
+
+.popup {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-color: rgba(22, 44, 78, 0.6);
+}
+
+.popup-body {
+    width: 320px;
+    height: 370px;
+    margin: 15% auto;
+    background-color: #FFFFFF;
+    border-radius: 2px;
+    border: 1px;
+    padding: 8px 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+
+.popup-body__x {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    cursor: pointer;
+}
+
+.popup-body h1 {
+    font-size: 36px;
+    color: #162C4E;
+    text-transform: uppercase;
+    margin-top: 97px;
+    margin-bottom: 30px;
+}
+
+.popup-body__message {
+    margin-bottom: 30px;
+}
+
+.popup-body__close {
+    padding: 20px 100px;
+    background-color: #1D4169;
+    border-radius: 40px;
+    color: white;
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
 /* Fonts */
 
 @font-face {

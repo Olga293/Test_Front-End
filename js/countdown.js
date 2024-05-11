@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
     const endData = new Date('Jul 24 2024 00:00:00');
-    console.log(endData);
 
     const daysVal = document.querySelector(".js-countdown__days .js-countdown__val");
     const hoursVal = document.querySelector(".js-countdown__hours .js-countdown__val");

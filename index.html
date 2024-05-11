@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <a class="header__logo" href="#">
             <img src="assets/img/logo.svg" width="190px" height="60px" alt="Logo Lead Advisors">
         </a>
     </header>
+
     <main>
         <h1 class="main__h1">under construction</h1>
         <p class="main__p">We're making lots of improvements and will be back soon</p>
@@ -52,16 +54,44 @@
             <a class="check-events__a" href="https://seo.belstu.by/Bryksa/tes-fansite.html">Go to the event<img src="assets/img/arrow_right.svg" alt="arrow" width="20px" height="20px"/></a>
         </div>
 
-        <div class="email-block">
-            <form id="email-block__form">
-                <input type="email" name="email" class="email" placeholder="Enter your Email and get notified" required>
-                <button class="email-button open-modal" type="submit">
-                    <img class="email-button-arrow" src="assets/arrow.png" alt="submit" />
+        <div class="bottom-block">
+            <form class="email-form">
+                <input class="email-form__input" type="email" name="email" placeholder="Enter your Email and get notified" required>
+                <button class="email-form__btn" type="submit">
+                    <img class="email-btn-arrow" src="assets/img/arrow_right.svg" alt="submit" />
                 </button>
             </form>
-            <a class="other-events-btn" href="#footer">Other Events <img src="assets/arrow-down.png" alt="submit" /></a>
+            <a class="other-events-btn__a">Other Events<img src="assets/img/arrow_down.svg" alt="submit" /></a>
         </div>
     </main>
+
+    <div class="popup js-popup-success">
+        <div class="popup-body">
+            <div class="popup-body__x">
+                <img src="assets/img/cross.svg" alt="cancel">
+            </div>
+            <h1>Success!</h1>
+            <span class="popup-body__message" >
+                You have successfully subscribed to the email newsletter
+            </span>
+            <button class="popup-body__close" >Close</button>
+        </div>
+    </div>
+
+    <div class="popup js-popup-failure">
+        <div class="popup-body">
+            <div class="popup-body__x">
+                <img src="assets/img/cross.svg" alt="cancel">
+            </div>
+            <h1>Failure!</h1>
+            <span class="popup-body__message" >
+                Something went wrong, try again
+            </span>
+            <button class="popup-body__close" >Close</button>
+        </div>
+    </div>
+
     <script src="js/countdown.js"></script>
+    <script src="js/email.js"></script>
 </body>
 </html>
